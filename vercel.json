@@ -12,5 +12,5 @@
             "dest": "api/main.py"
         }
     ],
-    "installcommand": "yum groupinstall \"Development Tools\""
+    "installCommand": "yum groupinstall \"Development Tools\""
 }
