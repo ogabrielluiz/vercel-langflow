@@ -1,5 +1,5 @@
 {
-    "devCommand": "uvicorn api.main:app --host 0.0.0.0 --port 7860",
+    "devCommand": "uvicorn main:app --host 0.0.0.0 --port 7860",
     "builds": [
         {
             "src": "api/main.py",
@@ -11,6 +11,5 @@
             "src": "/(.*)",
             "dest": "api/main.py"
         }
-    ],
-    "installCommand": "yum groupinstall \"Development Tools\""
+    ]
 }

@@ -1,1 +1,1 @@
-langflow
+langflow==1.0.0a55
